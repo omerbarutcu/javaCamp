@@ -1,0 +1,13 @@
+package interfaceAbstractDemo.Entities;
+
+import java.util.Date;
+
+public class Customer {
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	private Date fateOfBirth;
+	private String nation
+	
+}

@@ -1,0 +1,12 @@
+package interfaceAbstractDemo.Concrete;
+
+import interfaceAbstractDemo.Abstract.BaseCustomerManager;
+
+public class StarbucksCustomerManager extends BaseCustomerManager{
+
+	@Override
+	private void save(Customer customer) {
+		
+
+	}
+}

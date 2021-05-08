@@ -1,0 +1,7 @@
+package kodlamaIoHomework;
+
+public class Instructor extends User{
+
+	private int instructorId;
+	private depart
+}

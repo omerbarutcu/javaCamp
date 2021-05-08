@@ -1,0 +1,5 @@
+package interfaceAbstractDemo.Entities;
+
+public class Customer {
+
+}

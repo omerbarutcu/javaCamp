@@ -1,0 +1,6 @@
+package interfaces;
+
+public class Customer {
+	private int id;
+	p
+}

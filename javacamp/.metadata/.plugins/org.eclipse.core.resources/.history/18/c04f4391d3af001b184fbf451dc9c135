@@ -1,0 +1,7 @@
+package interfaceAbstractJava.Adapters;
+
+import interfaceAbstractJava.Abstract.CustomerCheckService;
+
+public class MernisServiceAdapter implements CustomerCheckService{
+
+}

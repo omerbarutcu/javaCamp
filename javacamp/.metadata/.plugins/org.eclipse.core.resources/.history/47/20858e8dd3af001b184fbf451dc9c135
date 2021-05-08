@@ -1,0 +1,5 @@
+package interfaceAbstractJava.Adapters;
+
+public class MernisServiceAdapter implements {
+
+}

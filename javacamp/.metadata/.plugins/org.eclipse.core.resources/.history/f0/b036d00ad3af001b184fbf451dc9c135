@@ -1,0 +1,13 @@
+package interfaceAbstractJava.Concrete;
+
+import interfaceAbstractJava.Abstract.BaseCustomerManager;
+import interfaceAbstractJava.Entites.Customer;
+
+public class StarbucksCustomerManager extends BaseCustomerManager{
+	
+	@Override
+	public void save(Customer customer) {
+		
+	}
+
+}

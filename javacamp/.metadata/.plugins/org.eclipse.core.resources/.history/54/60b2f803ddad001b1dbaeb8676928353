@@ -1,0 +1,6 @@
+package nLayeredDemo.business.abstructs;
+
+public class Snippet {
+	void add(Product product);
+}
+

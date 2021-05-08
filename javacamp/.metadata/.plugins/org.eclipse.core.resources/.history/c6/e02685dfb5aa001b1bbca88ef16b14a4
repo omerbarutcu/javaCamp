@@ -1,0 +1,13 @@
+package interfaces;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		CustomerManager customerManager=new CustomerManager();
+		Customer engin= new Customer();
+		customerManager.add(engin);
+
+	}
+
+}

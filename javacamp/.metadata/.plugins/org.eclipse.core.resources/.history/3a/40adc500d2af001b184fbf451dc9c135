@@ -1,0 +1,24 @@
+package interfaceAbstractJava.Entites;
+
+import java.util.Date;
+
+import interfaceAbstractJava.Abstract.Entity;
+
+public class Customer implements Entity{
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String nationalityId;
+	private Date dateOfBirth;
+	
+	public Customer(int id, String firstName, String lastName, String nationalityId, Date dateOfBirth) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.nationalityId = nationalityId;
+		this.dateOfBirth = dateOfBirth;
+	}
+
+}

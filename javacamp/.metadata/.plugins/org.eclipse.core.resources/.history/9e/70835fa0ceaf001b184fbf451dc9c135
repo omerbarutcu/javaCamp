@@ -1,0 +1,14 @@
+package interfaceAbstractDemo.Adapter;
+
+import interfaceAbstractDemo.Abstract.CustomerCheckService;
+import interfaceAbstractDemo.Entities.Customer;
+
+public class MernisServiceAdeptor implements CustomerCheckService{
+
+	@Override
+	public boolean CheckIfRealPerson(Customer customer) {
+		
+		return false;
+	}
+
+}

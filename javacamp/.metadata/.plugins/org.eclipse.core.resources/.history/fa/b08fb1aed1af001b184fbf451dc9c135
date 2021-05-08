@@ -1,0 +1,9 @@
+package interfaceAbstractJava.Entites;
+
+import interfaceAbstractJava.Abstract.Entity;
+
+public class Customer implements Entity{
+	
+	private int id;
+
+}

@@ -1,0 +1,12 @@
+package interfaceAbstractJava;
+
+import interfaceAbstractJava.Abstract.BaseCustomerManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		BaseCustomerManager baseCustomerManager= new BaseCustomerManager()
+	}
+
+}

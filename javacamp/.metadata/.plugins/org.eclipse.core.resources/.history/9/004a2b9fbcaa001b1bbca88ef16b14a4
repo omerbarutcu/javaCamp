@@ -1,0 +1,8 @@
+package interfaces;
+
+public class Utils {
+	private void Run() {
+		// TODO Auto-generated method stub
+
+	}
+}

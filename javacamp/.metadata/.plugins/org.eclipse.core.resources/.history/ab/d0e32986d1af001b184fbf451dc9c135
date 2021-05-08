@@ -1,0 +1,5 @@
+package interfaceAbstractJava.Abstract;
+
+public class BaseCustomerManager {
+
+}

@@ -1,0 +1,26 @@
+package interfaceAbstractJava.Adapters;
+
+import interfaceAbstractJava.Abstract.CustomerCheckService;
+import interfaceAbstractJava.Entites.Customer;
+
+public class MernisServiceAdapter implements CustomerCheckService{
+
+	@Override
+	public boolean ChackIfRealPerson(Customer customer) {
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		return false;
+	}
+
+}

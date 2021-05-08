@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+C:\Users\omerb\OneDrive\Masaüstü\Camp\javacamp\.metadata\.plugins\org.eclipse.jdt.core
+278804527.index
+1642175237.index
+380197650.index
+2052462106.index
+435225591.index
+1662216653.index
+858178207.index
+4125228729.index

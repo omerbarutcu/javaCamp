@@ -1,0 +1,6 @@
+package interfaceAbstractDemo.Entities;
+
+public class Customer {
+	private int id;
+	public String firstName;
+}

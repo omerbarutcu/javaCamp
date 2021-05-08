@@ -1,0 +1,14 @@
+package interfaceAbstractDemo.Abstract;
+
+import java.io.Console;
+
+import interfaceAbstractDemo.Entities.Customer;
+
+public class BaseCustomerManager implements CustomerService{
+
+	@Override
+	public void Save(Customer customer) {
+		
+	}
+
+}

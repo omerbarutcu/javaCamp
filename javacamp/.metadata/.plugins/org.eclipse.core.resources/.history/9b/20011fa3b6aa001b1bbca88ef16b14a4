@@ -1,0 +1,24 @@
+package interfaces;
+
+public class CustomerManager {
+	
+	private Logger logger;
+	
+	public CustomerManager(Logger logger) {
+		super();
+		this.logger = logger;
+	}
+	public void add (Customer customer) {
+		System.out.println("Müþteri eklendi "+customer.getFirstName());
+		
+		
+
+	}
+	public void delete(Customer customer) {
+		
+		System.out.println("Müþteri silindi "+customer.getFirstName());
+		
+		DatabaseLogger logger=new DatabaseLogger();
+		logger.log(customer.getFirstName()+" veri tabanýna loglandý");
+	}
+}

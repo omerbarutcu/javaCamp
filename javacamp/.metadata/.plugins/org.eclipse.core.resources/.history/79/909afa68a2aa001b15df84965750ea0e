@@ -1,0 +1,8 @@
+package kodlamaIoHomework;
+
+public class Student extends User{
+
+	private String complateRate;
+	private String gettingLesson;
+	
+}

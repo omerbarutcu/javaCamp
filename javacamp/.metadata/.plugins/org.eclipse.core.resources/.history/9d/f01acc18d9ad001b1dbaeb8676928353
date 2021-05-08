@@ -1,0 +1,23 @@
+package nLayeredDemo.entities.concretes;
+
+public class Product {
+
+	private int id;
+	private int categoryId;
+	private String name;
+	private double unitPrice;
+	private int unitInStock;
+	
+	public Product() {}
+
+	public Product(int id, int categoryId, String name, double unitPrice, int unitInStock) {
+		super();
+		this.id = id;
+		this.categoryId = categoryId;
+		this.name = name;
+		this.unitPrice = unitPrice;
+		this.unitInStock = unitInStock;
+	}
+	
+	
+}

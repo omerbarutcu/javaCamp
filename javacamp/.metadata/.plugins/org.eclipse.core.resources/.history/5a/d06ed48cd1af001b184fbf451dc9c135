@@ -1,0 +1,13 @@
+package interfaceAbstractJava.Abstract;
+
+import interfaceAbstractJava.Entites.Customer;
+
+public class BaseCustomerManager implements CustomerService{
+
+	@Override
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

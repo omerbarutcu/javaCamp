@@ -1,0 +1,7 @@
+package interfaceAbstractJava.Concrete;
+
+import interfaceAbstractJava.Abstract.CustomerCheckService;
+
+public class CustomerCheckManager implements CustomerCheckService{
+
+}

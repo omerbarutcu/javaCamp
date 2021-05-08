@@ -1,0 +1,14 @@
+package interfaceAbstractDemo;
+
+import interfaceAbstractDemo.Abstract.BaseCustomerManager;
+import interfaceAbstractDemo.Concrete.NeroCustomerManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

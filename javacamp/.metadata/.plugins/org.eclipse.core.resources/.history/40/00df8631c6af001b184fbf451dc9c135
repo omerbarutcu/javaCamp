@@ -1,0 +1,12 @@
+package interfaceAbstractDemo.Abstract;
+
+import interfaceAbstractDemo.Entities.Customer;
+
+public class BaseCustomerManager implements CustomerService{
+
+	@Override
+	public void Save(Customer customer) {
+		System.out.println("Save to DB"+customer.getFirstName());
+	}
+
+}

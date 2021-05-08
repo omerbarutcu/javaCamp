@@ -1,0 +1,6 @@
+package interfaceAbstractDemo.Abstract;
+
+public interface CustomerCheckService {
+
+	public boolean ChackIf
+}

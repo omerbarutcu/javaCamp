@@ -1,0 +1,6 @@
+package interfaceAbstractJava.Abstract;
+
+public interface CustomerCheckService {
+	boolean 
+
+}

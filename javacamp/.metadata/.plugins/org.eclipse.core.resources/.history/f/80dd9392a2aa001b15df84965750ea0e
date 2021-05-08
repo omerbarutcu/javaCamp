@@ -1,0 +1,25 @@
+package kodlamaIoHomework;
+
+public class Student extends User{
+
+	private String complateRate;
+	private String gettingLesson;
+	
+	public Student() {
+		
+	}
+	
+	public String getComplateRate() {
+		return complateRate;
+	}
+	public void setComplateRate(String complateRate) {
+		this.complateRate = complateRate;
+	}
+	public String getGettingLesson() {
+		return gettingLesson;
+	}
+	public void setGettingLesson(String gettingLesson) {
+		this.gettingLesson = gettingLesson;
+	}
+	
+}

@@ -1,0 +1,16 @@
+package interfaceAbstractJava;
+
+import interfaceAbstractJava.Abstract.BaseCustomerManager;
+import interfaceAbstractJava.Adapters.MernisServiceAdapter;
+import interfaceAbstractJava.Concrete.StarbucksCustomerManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		BaseCustomerManager baseCustomerManager= new StarbucksCustomerManager(new MernisServiceAdapter());
+		baseCustomerManager.save(new Customer(1,"ÖMER","BARUTÇU",));
+		
+		
+	}
+}

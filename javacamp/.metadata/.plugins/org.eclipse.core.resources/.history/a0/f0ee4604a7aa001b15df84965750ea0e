@@ -1,0 +1,44 @@
+package kodlamaIoHomework;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Course course1=new Course(1, "(C# + ANGULAR)","Yazýlým Geliþtirici Yetiþtirme Kampý ","Engin Demiroð","Photo1","½75");
+		
+		Course course2=new Course(2, "(JAVA+REACT)","Yazýlým Geliþtirici Yetiþtirme Kampý ","Engin Demiroð","Photo2","½32");
+		
+		Course[] courses= {course1,course2};
+		
+		for (Course course:courses) {
+			System.out.println(course.courseName);
+		}
+		
+		
+		CourseManager courseManager=new CourseManager();
+		courseManager.add(course1);
+		courseManager.add(course2);
+		
+		Student student=new Student(1,"%40","java(react)");
+		student.setUserId(1);
+		student.setFirstName("Ömer");
+		student.setLastName("Barutçu");
+		student.setUserName("OmerBarutcu");
+		student.seteMail("omerbrtc");
+		student.setPassword("123456");
+		
+		Instructor instructor=new Instructor(1,"Software Engineer");
+		instructor.setUserId(2);
+		instructor.setFirstName("Engin");
+		instructor.setLastName("Demiroð");
+		instructor.setUserName("EnginHoca");
+		instructor.seteMail("engindemirog");
+		instructor.setPassword("456789");
+		
+		UserManager userManager=new UserManager();
+		User[] users= {student,instructor};
+		
+	}
+
+}

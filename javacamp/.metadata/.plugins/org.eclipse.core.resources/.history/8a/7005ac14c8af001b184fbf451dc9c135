@@ -1,0 +1,8 @@
+package interfaceAbstractDemo.Abstract;
+
+import interfaceAbstractDemo.Entities.Customer;
+
+public interface CustomerService {
+	
+	public void Save(Customer customer);
+}

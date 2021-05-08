@@ -1,0 +1,15 @@
+package tr.gov.nvi.tckimlik.WS;
+
+import java.rmi.RemoteException;
+
+public class Main {
+
+	public static void main(String[] args) throws RemoteException{
+		// TODO Auto-generated method stub
+		
+		KPSPublicSoapProxy kpsPublic=new KPSPublicSoapProxy();
+		boolean result =kpsPublic.TCKimlikNoDogrula(54889558664, "ÖMER", "BARUTÇU", 1984);
+
+	}
+
+}

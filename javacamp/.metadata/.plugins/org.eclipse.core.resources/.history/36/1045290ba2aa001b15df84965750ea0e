@@ -1,0 +1,5 @@
+package kodlamaIoHomework;
+
+public class Student extends User{
+
+}

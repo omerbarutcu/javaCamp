@@ -1,0 +1,13 @@
+package nLayeredDemo;
+
+import nLayeredDemo.business.abstracts.ProductService;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ProductService productService
+
+	}
+
+}
